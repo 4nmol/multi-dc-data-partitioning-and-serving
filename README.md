@@ -1,10 +1,9 @@
-# Data partitioning and serving from multiple Data Centers
-Data partitioned and served from multiple data centre
-
-# Introduction
+# Data partitioning and serving from multiple DCs
 In the face of disaster, to avoid data loss and complete unserviceability of the service, data is partitioned and served from different different data centers.
 
-# Components
-* Application Layer
-* Routing Layer
-* Data Store
+# Benefits
+1. Disaster Recoverability
+1. Increased Availability
+1. Reduced Latency as data is partitioned based on geographical location of the user
+
+![Overview](/images/overview.jpg)
