@@ -2,7 +2,7 @@
 In the face of disaster, to avoid data loss and complete unserviceability of the service, data is partitioned and served from different different data centers.
 
 # Introduction
-When all data resides in a single DC there is a high chance of loosing all the data during disaster. Also what if DB instance goes down, your service would be down. Whereas partitioning and serving the data from multiple DCs increases throughput. You can partition data based on geolocality of user to a DC and reduce the latency. If disaster happens in a DC atleast your service will remain available for reads by serving from read replica present in the other DC. So this activity has myraid of benefits.
+When all data resides in a single DC, there is a high chance of loosing all the data during disaster. Also, what if DB instance goes down, your service would be down. Whereas partitioning and serving the data from multiple DCs increases throughput. You can partition data based on geolocality of a user to a DC thereby reducing the latency. If disaster happens in a DC atleast your service will remain available for reads by serving from read replica present in the other DC. So this activity has myraid of benefits.
 
 # Benefits
 1. Disaster Recovery
